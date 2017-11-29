@@ -1,0 +1,639 @@
+
+<<<<<<< HEAD
+<style type="text/css">
+
+	.input-group{
+    		margin: 20px;
+
+    		
+    	}
+    .class{
+    	clear:both;
+ 	
+
+    }
+    .shujubiaoti{
+    	visibility: hidden;
+    	width: 250px;
+    	height: 65px;
+    	
+    	font-size: 18px;
+    	background:transparent;
+    	background-color:rgba(255,255,255,0.7);
+    	position: relative;
+    	top: 100px;
+    	padding: 11px;
+    }
+</style>
+
+
+<div style="background-image:url(__PUBLIC__/picture/bg.jpg);background-size:cover;height:600px"class = "jumbotron">
+		<div class ="container">
+
+<!-- 显示登录 -->
+			<div style="margin-top:50px;height:100px;"class="indexImage">
+				
+					<h2 style="color:#fff;position:relative;top:80px">
+<!-- 检查登录						 -->
+						<volist name="checklog" id="vo">
+						
+						欢迎<eq name="vo.result" value="1">{$vo.nick}</eq>来到和谐宜居城市评价系统!
+						<eq name="vo.result" value="0">
+						 <button style="color:#09c"type="button" class="btn btn-default btn-lg"data-toggle="modal" data-target="#myModal" >登录／注册</button>
+						</eq>
+						</volist>
+					</h2>
+					
+			</div>
+
+			<div>
+				
+				<h1>City of Harmonious & Liveability </h1>
+				<!-- <h4 >
+					<a href="{:U('Index/xitongjianjie')}" style="background-color: white;padding:5px"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> 评价系统简介</a>
+					<a href="{:U('Index/xiangguansuanf')}" style="background-color: white;padding:5px"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span> 相关算法简介</a>
+					<a href="{:U('Index/contactus')}" style="background-color: white;padding:5px"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 开发者介绍</a>
+				</h4> -->
+			</div>
+<!-- 登录模态框 -->
+	
+			
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">用户登录</h4>
+			      </div>
+			      <div class="modal-body">
+<!-- 登录内容 -->
+			        <div  class="input-group">
+     					<span class="glyphicon glyphicon-user input-group-addon" id="sizing-addon1"aria-hidden="true"></span>
+     					<input  name="username"type="text" class="username form-control" placeholder=
+     		             "用户名" aria-describedby="basic-addon1">
+     				</div>
+
+     				<div class="input-group">
+     					<span class="glyphicon glyphicon-heart input-group-addon" id="sizing-addon1"aria-hidden="true"></span>
+     					<input  name="password"type="password" class="password form-control" placeholder=
+     		             "密码" aria-describedby="basic-addon1">
+     				</div>
+     				<img id="yzm"src="__PUBLIC__/yanzhengma.php" style="margin:0px 50px;"width="200px" height="34px"><a href="#" onclick="reloadyzm()">reload</a>
+
+     				<div class="input-group ">
+     					<span class="glyphicon glyphicon-star input-group-addon" id="sizing-addon2"aria-hidden="true"></span>
+     					<input  name="yanzhengma"type="text" class="yanzhengma form-control" placeholder=
+     		             "验证码" aria-describedby="basic-addon1">
+     				</div>
+
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" onclick="register()">注册新用户</button>
+			        <button type="button" class="btn btn-primary" onclick="login()">提交</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+<!-- 刷新验证码js -->
+<script type="text/javascript">
+	function reloadyzm(){
+		document.getElementById("yzm").src="__PUBLIC__/yanzhengma.php";
+	}
+	function register(){
+
+		window.location.href="{:U('index/register')}";
+	}
+	function login(){
+		username=$('input[name=username]').val();
+		password=$('input[name=password]').val();
+		yanzhengma=$('input[name=yanzhengma]').val();
+		if(yanzhengma==""){
+			alert('	请输入验证码');
+		}else{
+			data={
+				username:username,
+				password:password,
+				yanzhengma:yanzhengma
+			}
+			$.ajax({url:"{:U('Index/login')}",type:'POST',data:data,success:
+					                function(succ){
+					                    	console.log(succ);
+					                        result = JSON.parse(succ);
+					                        
+					                        if(result.result=='ok'){
+					                              alert('登录成功');
+					                            
+					                               window.location.href="{:U('Index/index')}"; 
+					                        }else{
+					                            if (result.id=='0') {
+					                                alert('密码不正确');
+					                            }
+					                            if (result.id=='1') {
+					                                alert('您好亲爱的管理员'+result.ru_id);
+					                                window.location.href="{:U('Admin/index')}"
+					                            }
+					                            if(result.id=='9'){
+					                            	alert('验证码不正确');
+					                            }
+					                        }
+					                            
+					                }
+					            })
+					                      
+		}
+	}
+</script>
+
+
+
+	</div>
+</div>
+<div style="background-color:white"class = "jumbotron">
+	<div class="container">
+		<center>
+		  <div style="margin-left:20px"class="page-header">
+		  	
+		  		<h2>每年，我们都用数字记录城市的一切变化</h2>
+   <h2><small>H&L采用AHP算法，分析海量数据，为你所关心的36个城市问题打分</small></h2>
+		  	
+  
+</div>
+<div class="col-sm-6 col-md-4">
+	<div class="shujubiaoti">2016年北京PM2.5指数减少9.9%，多了9天蓝天白云</div>
+	<img class="shujutu" style="width:250px;height:250"src="__PUBLIC__/picture/wumai.png" class="img-rounded">
+	
+</div>
+<div class="col-sm-6 col-md-4">
+	<div class="shujubiaoti">共享单车为首都人民节省了5个鸟巢的停车位</div>
+	<img class="shujutu"style="width:250px;height:250"src="__PUBLIC__/picture/duche.png" class="img-rounded">
+	
+</div>
+<div class="col-sm-6 col-md-4">
+	<div class="shujubiaoti">深圳是全中国最具创新能力的城市？</div>
+	<img class="shujutu"style="width:250px;height:250"src="__PUBLIC__/picture/lengmo.png" class="img-rounded">
+	
+</div>
+ <button style="color:#09c;margin-top:50px"type="button" class="btn btn-default btn-lg"onclick="toinfo()" > 查看更多城市数据分析<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		        		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+</center>
+
+<div style="margin-left:20px;margin-top:120px"class="page-header">
+		  	
+		  		<h2>但有时，我们也有例外</h2>
+   <h2><small>和谐宜居无法只用数字评价，每个人都有自己的普罗旺斯</small></h2>
+		  	
+  
+</div>
+<div>
+
+</div>
+	<div style="width:100%;float:left">
+		<div style="float:right"class="col-sm-6 col-md-4">
+			<div class="shujubiaoti">评分了了的路边摊依然能缓解城市给我们的压力</div>
+			<img class="shujutu" style="height:250px;"src="__PUBLIC__/picture/caiseximen.jpg">
+		</div>
+
+	
+
+	</div>	
+
+	<center>
+		<button style="color:#09c;margin-top:50px"type="button" class="btn btn-default btn-lg" onclick="toblog()"> 参与博客讨论发表你的看法<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		        		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+
+	</center>
+	
+	
+</div>
+
+
+		
+	
+
+</div>
+	
+
+	
+		
+
+<script type="text/javascript">
+	$('.shujutu').mouseover(function(){
+          $(this).prev()[0].style.visibility="visible";
+
+        })
+    $('.shujutu').mouseout(function(){
+          $(this).prev()[0].style.visibility="hidden";
+        })
+    function toblog(){
+    	window.location.href="{:U('Share/index')}";
+    }
+    function toinfo(){
+    	window.location.href="{:U('Info/index')}";
+    }
+</script>	
+</body>
+</html>
+=======
+    <div id="content" class="clearfix">
+        <div class="main">
+            <div class="filter-category clearfix">
+                <div class="acrossLine"></div>
+                <ul class="clearfix">
+                        <li class="active" onclick="javascript:window.location='/waimai'">附近的餐厅</li>
+                        <li class="supermarket "  onclick="javascript:window.location=
+                        '/shopui/convenientlist?lat=4822336.04&lng =12975165.32&address=北京百度外卖'">超市购</li>
+                        <li class="hide" data-node="tabPreferentialInfo">优惠信息</li>
+                </ul>
+            </div>
+            <section id="f_panel" class="filter-section clearfix">
+                <div class="filter-up clearfix">
+                    <ul class="filter-cates clearfix">
+                        <volist name="data" id="vo">
+                            <li class="cate-item  item-index-{$i}" data-id="{$i}" data-name="{$vo.cate_name}">
+                                <div class="item-img">
+                                <div class="img-show cate-start cate-{$vo.cate_name}" style="background-image:url({$vo.img_url});"></div>
+                                <div class="img-show cate-hover cate-hover-{$vo.cate_name}" style="background-image:url({$vo.img_url});"></div>
+                                </div>
+                                <div class="item-text">{$vo.cate_name}</div>
+                            </li>
+                        </volist>
+                    </ul>
+                </div>
+
+                <div class="filter-bottom clearfix" id="filter-bottom">
+                    <div class="outline-left">
+                        <ul class="option-left">
+                            <li>
+                                <span class="sort-item" data-node="" style="padding-right: 10px">默认</span></i><span class="item-interval">|</span>
+                            </li>
+                            <li class="item-left">
+                            <span class="sort-item" data-node="month_sales">销量</span><i class="down"></i><span class="item-interval">|</span></li >
+                            <li>
+                            <span class="sort-item" data-node="distance">餐厅距离</span><i></i><span class="item-interval">|</span></li>
+                            <li>
+                            <span  class="sort-item" data-node="comment">评分</span><i class="down"></i><span class="item-interval">|</span></li>
+                            <li>
+                            <span class="sort-item" data-node="takeout_price">起送价</span><i></i><span class="item-interval last">|</span>
+                            </li>
+                            <li>
+                            <span class="sort-item" data-node="dtime">送餐速度</span><i></i><span class="item-interval">|</span></li>
+                        </ul>
+                    </div>
+                    <div class="filter-outline">
+                        <ul class="filter-option" data-node="filter-cates">
+                        <li class="option-item f-selected" data-msg="资质证照" data-type="certification">
+                            <i></i>
+                            <span>资质证照</span>
+                        </li>
+                        <li class="option-item" data-msg="支持在线支付" data-type="pay">
+                        <i></i>
+                        <span>支持在线支付</span>
+                        </li>
+                        <li class="option-item" data-msg="新用户立减" data-type="xin">
+                        <i></i>
+                        <span>新用户立减</span>
+                        </li>
+                        <li class="option-item" data-msg="立减优惠" data-type="jian">
+                        <i></i>
+                        <span>立减优惠</span>
+                        </li>
+                        <li class="option-item" data-msg="下单返券" data-type="fan">
+                        <i></i>
+                        <span>下单返券</span>
+                        </li>
+                        <li class="option-item" data-msg="预定优惠" data-type="preorder">
+                        <i></i>
+                        <span>预定优惠</span>
+                        </li>
+                        <li class="option-item" data-msg="特价优惠" data-type="te">
+                        <i></i>
+                        <span>特价优惠</span>
+                        </li>
+                        <li class="option-item" data-msg="进店领券" data-type="shop_coupon">
+                        <i></i>
+                        <span>进店领券</span>
+                        </li>
+                        <li class="option-item" data-msg="免配送费" data-type="mian">
+                        <i></i>
+                        <span>免配送费</span>
+                        </li>
+                        <li class="option-item" data-msg="下单满赠" data-type="zeng">
+                        <i></i>
+                        <span>下单满赠</span>
+                        </li>
+                        <li class="option-item" data-msg="支持代金券" data-type="coupon">
+                        <i></i>
+                        <span>支持代金券</span>
+                        </li>
+                        <li class="option-item" data-msg="支持开发票" data-type="invoice">
+                        <i></i>
+                        <span>支持开发票</span>
+                        </li>
+                        <li class="option-item" data-msg="百度专送" data-type="express">
+                        <i></i>
+                        <span>百度专送</span>
+                        </li>
+                        <li class="option-item" data-msg="超时赔付" data-type="overtimepayment">
+                        <i></i>
+                        <span>超时赔付</span>
+                        </li>
+                        <img class="arrow" src="__PUBLIC__/picture/arrow_eec16bc.png" width="10px" height="10px">
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="f_panelfixed" class="filterfixed-section clearfix">
+                <div class="filter-bottom clearfix">
+                <div class="outline-left">
+                    <ul class="option-left">
+                        <li>
+                            <span class="sort-item" data-node="" style="padding-right: 10px">默认</span></i><span class="item-interval">|</span>
+                        </li>
+                        <li class="item-left">
+                            <span class="sort-item" data-node="month_sales">销量</span><i class="down"></i><span class="item-interval">|</span>
+                        </li>
+                        <li>
+                            <span class="sort-item" data-node="distance">餐厅距离</span><i></i><span class="item-interval">|</span></li>
+                        <li>
+                            <span  class="sort-item" data-node="comment">评分</span><i class="down"></i><span class="item-interval">|</span>
+                        </li>
+                        <li>
+                            <span class="sort-item" data-node="takeout_price">起送价</span><i></i><span class="item-interval last">|</span>
+                        </li>
+                        <li>
+                            <span class="sort-item" data-node="dtime">送餐速度</span><i></i><span class="item-interval">|</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-outline">
+                    <ul class="filter-option" data-node="filter-cates">
+                    <li class="option-item f-selected" data-msg="资质证照" data-type="certification">
+                    <i></i>
+                    <span>资质证照</span>
+                    </li>
+                    <li class="option-item" data-msg="支持在线支付" data-type="pay">
+                    <i></i>
+                    <span>支持在线支付</span>
+                    </li>
+                    <li class="option-item" data-msg="新用户立减" data-type="xin">
+                    <i></i>
+                    <span>新用户立减</span>
+                    </li>
+                    <li class="option-item" data-msg="立减优惠" data-type="jian">
+                    <i></i>
+                    <span>立减优惠</span>
+                    </li>
+                    <li class="option-item" data-msg="下单返券" data-type="fan">
+                    <i></i>
+                    <span>下单返券</span>
+                    </li>
+                    <li class="option-item" data-msg="预定优惠" data-type="preorder">
+                    <i></i>
+                    <span>预定优惠</span>
+                    </li>
+                    <li class="option-item" data-msg="特价优惠" data-type="te">
+                    <i></i>
+                    <span>特价优惠</span>
+                    </li>
+                    <li class="option-item" data-msg="进店领券" data-type="shop_coupon">
+                    <i></i>
+                    <span>进店领券</span>
+                    </li>
+                    <li class="option-item" data-msg="免配送费" data-type="mian">
+                    <i></i>
+                    <span>免配送费</span>
+                    </li>
+                    <li class="option-item" data-msg="下单满赠" data-type="zeng">
+                    <i></i>
+                    <span>下单满赠</span>
+                    </li>
+                    <li class="option-item" data-msg="支持代金券" data-type="coupon">
+                    <i></i>
+                    <span>支持代金券</span>
+                    </li>
+                    <li class="option-item" data-msg="支持开发票" data-type="invoice">
+                    <i></i>
+                    <span>支持开发票</span>
+                    </li>
+                    <li class="option-item" data-msg="百度专送" data-type="express">
+                    <i></i>
+                    <span>百度专送</span>
+                    </li>
+                    <li class="option-item" data-msg="超时赔付" data-type="overtimepayment">
+                    <i></i>
+                    <span>超时赔付</span>
+                    </li>
+                    <img class="arrow" src="__PUBLIC__/picture/arrow_eec16bc.png" width="10px" height="10px">
+                    </ul>
+                </div>
+                <div class="filter-search">
+                <input type="text" id="f-input" class="f-input placeholder-con" placeholder="搜索商户或商品" value="">
+                <a href="/waimai/shoplist/c63ab3051c9a6892" id="f-close-btn" title="重新搜索" class="f-close-btn hide">×</a>
+                <button id="f-search" class="f-search"></button>
+                <div class="f-search-list"></div>
+                </div>
+                </div>
+            </section>
+            <section class="shop-list" id="shop-list">
+                <div class="list-wrap">
+                    <div class="list clearfix" style="color:red">
+                        <ul class="shopcards-list">
+
+                            <volist name="data_store" id="vo">
+                                <li class="list-item shopcard data{$vo.stime|strtotime} online" ismarket="0" data="{$vo.stime|strtotime}">
+                                     <input type="hidden" id="sid" name="sid" value="{$vo.sid}">
+                                    <div class="shopimg">                                                    
+                                        <img width="228" height="140"  alt="壹多滋（龙眠西路店）" onerror="this.src='https://static.waimai.baidu.com/static/waimai/images/shopcard_loading_84603da.png'" src="{$vo.log_url}">                    
+                                    </div>
+                                    <div class="title" title="{$vo.sname}">            
+                                        {$vo.sname}
+                                        <span class="cert-icon">
+                                            <img src="https://static.waimai.baidu.com/static/forpc/certificated_s.png">
+                                        </span>        
+                                    </div>
+                                    <div class="info s-info clearfix">            
+                                        <div class="f-col f-star star-control" data-star="5">                
+                                            <span class="rate">                    
+                                                <span class="rate-inner" style="width:72px"></span>                
+                                            </span>            
+                                        </div>            
+                                        <div class="f-col f-sale">月售<span>{$vo.sales}</span>份
+                                        </div>        
+                                    </div>
+
+                                    <div class="info f-info clearfix">            
+                                        <div class="f-col f-price">                
+                                            <span class="item-label">起送:</span>                
+                                            <span class="item-value">{$vo.least}</span>            
+                                        </div>           
+                                        <div class="f-col f-cost">                
+                                            <span class="item-label">配送:</span>                
+                                            <span class="item-value">{$vo.distribute}</span>     
+                                        </div>    
+                                        <div class="f-col f-time">
+                                            30分钟                                    
+                                        </div> 
+                                    </div> 
+                                    <div class="feature">                            
+                                        <volist name="vo['feature']" id="voo">
+                                                <em class="pay-min-icon premium-icon" data-msg="{$voo.content}">
+                                                    <img src="{$voo.img_url}">
+                                                </em>                               
+                                        </volist>
+                                    </div>
+
+                                    <div class="overlay">            
+                                        <div class="o-con">      
+                                            <div class="shop-title">                    
+                                                <p>{$vo.sname}
+                                                    <span class="cert-icon">
+                                                        <img src="https://static.waimai.baidu.com/static/forpc/certificated_s.png">
+                                                    </span>
+                                                </p>                    
+                                                <p class="cert-pah">支持查看政府认可的资质证照</p>                
+                                            </div>                                
+                                            <div class="shop-feature">                    
+                                                <volist name="vo['feature']" id="voo">          
+                                                <ul>                                                    
+                                                    <li>                                
+                                                        <em class="pay-min-icon premium-icon">
+                                                            <img src="{$voo.img_url}">
+                                                        </em>                                
+                                                        <p style="width:150px;">{$voo.content}</p>                            
+                                                    </li>                                                    
+                                                                          
+                                                </ul>                
+                                                </volist>         
+                                            </div>                                
+                                            <div class="shop-notice">                    
+                                                <h2>商家公告</h2>                    
+                                                <p>{$vo.notice}</p>                
+                                            </div>   
+                                        </div>            
+                                        <div class="o-arrow">
+                                             
+                                        </div>        
+                                     </div>
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+                    <div class="loading hide">
+                        <img src="__PUBLIC__/picture/load-more_3e34c85.gif" width="32" height="32">
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="backtop-section" id="backtop-section">
+                <div class="appdown" data-node="appdown">
+                    <a id="backTop" class="back-top-action v-hide" href="javascript:;"></a>
+                    <i data-node="appdown-img" class="appdown-img"  usemap="#planetmap" style="display:block;"></i>
+                    <a id="feedback" class="feedback" href="javascript:;"></a>
+                    <map name="planetmap" id="planetmap">
+                        <area shape="rect" coords="88,35,100,45"  id="appdownClose" href="javascript:;" />
+                    </map>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="bdstoken" name="bdstoken" value="">
+        <input type="hidden" id="bindstoken" name="bindstoken" value="">
+    </div>
+
+   
+<script src="__PUBLIC__/js/jquery-3.1.0.js"></script>
+<script type="text/javascript">
+    $('.list-item').mouseenter(function() {
+            var self = $(this); //当前对象     
+            var div = $(self.children()[6]); //要浮动在这个元素旁边的层    
+            var p = self.position(); //获取这个元素的left和top    
+            var x = p.left + self.width();//获取这个浮动层的left    
+            var docWidth = $(document).width();//获取网页的宽    
+            if (x > docWidth - div.width() - 20) {    
+                x = p.left - div.width();    
+            }    
+            console.log(self.width());
+        // setTimeout(function(){
+            div.css("position", "absolute");//让这个层可以绝对定位      
+            div.css("display", "block");    
+            div.css("left", self.width());    
+            div.css("top", p);    
+            div.show();  
+        // },200);         
+    })
+    $('.list-item').mouseout(function() {
+        var self = $(this); //当前对象     
+        var div = $(self.children()[6]); //要浮动在这个元素旁边的层
+        setTimeout(function(){
+            div.css("display","none");
+        },1); 
+    })
+
+
+    // $(document).ready(function(){
+    //     $('.filter-outline').mouseover(function(){
+    //         $('.filter-outline').css('height','200px');
+    //         $('.filter-outline').css('z-index','9999');
+    //         $('.arrow').css('transform','rotate(180deg)');
+    //         $('.arrow').css('display','block');
+    //     })
+    //     $('.filter-outline').mouseout(function(){
+    //         $('.filter-outline').css('height','41px');
+    //         $('.arrow').css('transform','rotate(0deg)')
+    //         $('.arrow').css('display','block');
+    //     })
+    // })
+    // $(document).ready(function(){
+    //     $('.item-left').click(function(){
+    //         var mar=$(this).children().children().css('margin-top')
+    //         if(mar=='-20px')
+    //         {
+    //             $(this).children().children().css('margin-top','2px');
+    //         }
+    //         else
+    //         {
+    //             $(this).children().children().css('margin-top','-20px');
+    //         }
+    //     })
+    // })
+
+
+    // $(document).ready(function(){
+
+    //     $('.list-item').click(function(){
+    //         var sid =  $(this).find(':input:eq(0)').val(); 
+    //         location.href="http://localhost/sjswaimai/index.php/Home/Index/shop/"+sid;
+    //     })
+    // })
+            // var data = $($(this)).attr('data');
+            // {:U('Index/shop',array('sid'=>$vo['sid']))}
+
+
+
+
+
+
+
+
+    //顶部导航js
+    // $(function () { 
+    //     //当滚动条的位置处于距顶部200像素以下时，顶部导航出现，否则消失 
+    //     $(function () { 
+    //         $(window).scroll(function () { 
+    //             if ($(window).scrollTop() > 294) { 
+    //                 $("#filter-bottom").fadeIn(); 
+    //             } 
+    //             else { 
+    //                 $("#filter-bottom").fadeOut(); 
+    //             } 
+    //         }); 
+    //     }); 
+    // }); 
+
+
+  </script>
+>>>>>>> 46a7683f785761c8fca4a44fb742d265bcd4b8af

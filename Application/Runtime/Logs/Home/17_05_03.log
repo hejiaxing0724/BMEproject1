@@ -1,0 +1,252 @@
+[ 2017-05-03T09:45:46+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/info/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003887s ]
+SQL: SHOW COLUMNS FROM `hl_indexclass` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `hl_indexclass` WHERE ( ic_c_id=1 )  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `hl_indexvalue` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=1 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=1 )  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=2 )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=2 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hl_firstindex` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hl_firstindex`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hl_city` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hl_city`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004004s ]
+
+[ 2017-05-03T09:45:48+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-05-03T09:45:58+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-05-03T09:46:00+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/info/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `hl_indexclass` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hl_indexclass` WHERE ( ic_c_id=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hl_indexvalue` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=2 )  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hl_firstindex` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hl_firstindex`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hl_city` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hl_city`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-05-03T09:46:03+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-05-03T09:46:05+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/info/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `hl_indexclass` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hl_indexclass` WHERE ( ic_c_id=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hl_indexvalue` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=1 )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=2 )  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hl_firstindex` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hl_firstindex`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hl_city` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hl_city`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-05-03T09:46:17+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/info/index?cid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `hl_indexclass` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `hl_indexclass` WHERE ( ic_c_id=2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hl_indexvalue` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=3 )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=3 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `hl_firstindex` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `hl_firstindex`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hl_city` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hl_city`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-05-03T09:46:36+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: avatar /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/ebf14e25328f70423c0b1406e4559d36.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-05-03T09:47:34+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/info/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `hl_indexclass` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `hl_indexclass` WHERE ( ic_c_id=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hl_indexvalue` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=1 )  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hl_indexvalue` WHERE ( iv_ic_id=2 )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 18 行.
+SQL: SELECT DISTINCT  * FROM `hl_indexvalue` INNER JOIN HL_thirdindex ON HL_indexvalue.iv_ti_id=HL_thirdindex.ti_id  WHERE ( HL_indexvalue.iv_ic_id=2 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `hl_firstindex` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hl_firstindex`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hl_city` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `hl_city`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+

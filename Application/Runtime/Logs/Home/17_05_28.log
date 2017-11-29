@@ -1,0 +1,1451 @@
+[ 2017-05-28T00:00:59+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-05-28T00:01:16+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-05-28T00:25:45+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003551s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007714s ]
+
+[ 2017-05-28T00:59:58+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hl_blog` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hl_blog` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hl_blog` ORDER BY b_time LIMIT 0,9   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/ebf14e25328f70423c0b1406e4559d36.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/ebf14e25328f70423c0b1406e4559d36.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/ebf14e25328f70423c0b1406e4559d36.php 第 135 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/ebf14e25328f70423c0b1406e4559d36.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2017-05-28T01:00:04+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/info/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hl_indexclass` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_indexclass` INNER JOIN HL_indexscore on HL_indexscore.is_ic_id = HL_indexclass.ic_id and HL_indexscore.is_type='0'  WHERE ( ic_c_id=1 ) ORDER BY ic_year desc   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `hl_indexscore` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_indexscore` WHERE `is_ic_id` = 2 AND `is_type` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hl_indexscore` WHERE `is_ic_id` = 1 AND `is_type` = '1'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hl_indexscore` WHERE `is_ic_id` = 4 AND `is_type` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hl_city` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_city`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hl_indexclass` WHERE `ic_c_id` = 1 AND `ic_year` = 2017  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hl_indexscore` WHERE `is_ic_id` = 2 AND `is_type` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hl_indexclass` WHERE `ic_c_id` = 2 AND `ic_year` = 2017  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hl_indexscore` WHERE `is_ic_id` = 3 AND `is_type` = '0'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 48 行.
+SQL: SELECT * FROM `hl_indexclass` WHERE `ic_c_id` = 3 AND `ic_year` = 2017  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hl_indexscore` WHERE `is_ic_id` = 5 AND `is_type` = '0'  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /Users/hejiaxing/work/harmoniouscity/Application/Home/Controller/InfoController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 80 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 81 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 86 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 93 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 94 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 99 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 100 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 105 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 106 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 80 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 81 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 86 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 93 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 94 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 99 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 100 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 105 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 106 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 80 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 81 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 86 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 93 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 94 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 99 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 100 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 105 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/3f36e03cb4a38b2ed27bc75332298af5.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2017-05-28T01:00:09+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-05-28T01:08:42+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004302s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004141s ]
+
+[ 2017-05-28T01:10:25+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004029s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2017-05-28T01:11:34+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-05-28T01:12:00+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-05-28T01:15:58+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004013s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004336s ]
+
+[ 2017-05-28T01:16:36+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-05-28T01:16:48+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-05-28T01:17:00+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-05-28T01:21:19+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004227s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004098s ]
+
+[ 2017-05-28T01:22:54+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-05-28T01:23:02+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-05-28T01:23:08+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-05-28T01:23:14+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-05-28T01:25:11+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-05-28T01:25:53+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-05-28T01:26:43+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-05-28T01:26:45+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-05-28T01:27:13+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-05-28T01:27:45+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-05-28T01:29:10+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-05-28T01:29:28+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-05-28T01:30:47+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004426s ]
+
+[ 2017-05-28T01:31:15+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004167s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2017-05-28T01:32:00+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-05-28T01:33:04+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002908s ]
+
+[ 2017-05-28T01:33:24+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-05-28T01:36:12+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003855s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004308s ]
+
+[ 2017-05-28T01:36:46+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-05-28T01:37:28+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004876s ]
+
+[ 2017-05-28T01:37:50+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-05-28T01:38:06+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-05-28T01:38:53+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003831s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2017-05-28T01:39:15+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-05-28T01:39:34+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-05-28T01:39:54+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-05-28T01:40:39+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-05-28T01:41:32+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-05-28T01:41:55+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-05-28T10:23:07+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004417s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004470s ]
+
+[ 2017-05-28T10:34:55+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2017-05-28T10:35:11+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-05-28T10:39:08+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-05-28T10:39:40+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-05-28T10:43:31+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003233s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2017-05-28T10:45:19+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-05-28T10:46:56+08:00 ] 127.0.0.1 /harmoniouscity/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `hl_token` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `hl_token` WHERE `t_token` = null  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/footer.html): failed to open stream: No such file or directory /Users/hejiaxing/work/harmoniouscity/ThinkPHP/Library/Think/Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [2] Illegal string offset 'result' /Users/hejiaxing/work/harmoniouscity/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+

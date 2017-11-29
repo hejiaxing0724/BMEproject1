@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>【H&L】HeJiaxing </title>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-3.1.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src ="__PUBLIC__/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class = "jumbotron">
+    <div style="background-color:white;"class ="container">
+    	<a href="{:U('Info/index')}"><button class="btn btn-default" style="margin:40px">返回</button></a>
+    	<div style="margin:0px 40px">
+    		
+    	<table class="table  table-striped table-bordered">
+    		<thead>
+    			<tr><th colspan="10"><h2>{$c_name}{$year}年<span style="color:#09c">{$fi_name}</span>维度评价指数详情</h2></th></tr>
+    			<tr>
+    				<th  colspan="4"><h3>一级指标</h3></th>
+    				<th  colspan="6"> <h3>二级指标</h3></th>   				
+    			</tr>
+    			<tr>
+    				<th><h4>#</h4></th>
+    				<th><h4>一级指标名称</h4></th>
+    				<th><h4>一级指标权重</h4></th>
+    				<th><h4>一级指标评价指数</h4></th>
+    				<th><h4>#</h4></th>
+    				<th><h4>二级指标名称</h4></th>
+    				<th><h4>二级指标权重</h4></th>
+                    <th><h4>二级指标类型</h4></th>
+    				<th><h4>二级指标评价指数</h4></th>
+    				<th><h4>二级指标具体数据</h4></th>
+    			</tr>
+    		</thead>
+    		<tbody>
+                <volist name="indexdetail" id="inde">
+                    <tr>
+                        <td>{$inde.si_id}</td>
+                        <td>{$inde.si_name}</td>
+                        <td>{$inde.si_weight}</td>
+                        <td>{$inde.secondscore}</td>
+                        <td>{$inde.ti_id}</td>
+                        <td>{$inde.ti_name}</td>
+                        <td>{$inde.ti_weight}</td>
+                        <td><eq name="inde.ti_type" id="1">正向型<else/>负向型</eq></td>
+                        <td>{$inde.thirdscore}</td>
+                        <td>{$inde.iv_value}{$inde.ti_measure}</td>
+                    </tr>
+                </volist>
+    		</tbody>
+    	</table>
+    	</div>
+    	
+	</div>
+</div>
+</body>
+</html>

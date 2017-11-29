@@ -1,0 +1,55 @@
+<div class = "jumbotron">
+	<div style="margin-top:50px" class="container" >
+		<ul style="width:50%"class="list-group">
+			<volist name="myblog" id="myb">
+		  <li class="list-group-item blogrows">
+		  	<span>
+			  		{$myb.b_title}
+			  	<small style="margin:0px 50px">
+			  		{$myb.b_time}</small>
+			  	<span class="glyphicon glyphicon-heart" aria-hidden="true"></span><span style="margin:0px 5px">{$myb.b_like}</span>	
+		  	</span>
+		  	<span style="float:right;visibility:hidden">
+		  		<a href="{:U('My/showmyblog')}?b_id={$myb.b_id}" style="color:#09c">修改</a>
+                
+                <input type="hidden" value="{$myb.b_id}">
+                <a href="javascrip:void(0)"class="deleteblog" style="color:#999">删除</a>
+                
+              </span>
+		  </li>
+		  	</volist>
+		</ul>
+<script type="text/javascript">
+	$('.blogrows').mouseover(function(){
+          $(this).children()[1].style.visibility="visible";
+
+        })
+    $('.blogrows').mouseout(function(){
+          $(this).children()[1].style.visibility="hidden";
+        })
+
+    $('.deleteblog').click(function(){
+    	var result = confirm('确定要删除此条博客吗？');
+    	if(result){
+    		b_id = $(this).prev().val();
+    	 data = {
+    	 	b_id:b_id
+    	 }
+    	 $.ajax({url:"{:U('My/deleteblog')}",type:'POST',data:data, success:
+			         function(succ){
+			         	result = JSON.parse(succ);
+			         	console.log(result);
+			         	if (result.result=='ok') {
+			         		alert('删除成功');
+			         		window.location.reload();
+			         	}
+			                
+			                  
+			            }
+			      })
+    	}
+    	 
+    })
+
+     
+</script>

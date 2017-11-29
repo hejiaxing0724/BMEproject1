@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://waimai.baidu.com/waimai?qt=orderlist&type=wait -->
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<script type="text/javascript" src="__PUBLIC__//uni_armorwidget_wrapper.js"></script>
+
+
+
+
+
+<title>石景山外卖</title>
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/user/main_5d1e2f0.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/user/common_12dc87d.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/user/landing_dc1f971.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/user/menu_4e4a7c2.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/user/order_23df2f5.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/user/usercenter_1e040d1.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/menucommon_1f2eceb.css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/menu_934e59e.css"/>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+<div id="content" class="clearfix" style="min-height: 36px;">
+<div class="main">
+<section class="order-menu">
+<div class="order-menu-pos">
+<div class="order-menu-header">
+<span>个人中心</span>
+</div>
+<div class="splitter"></div>
+<div class="order-menu-body">
+<div class="menu-item">
+<div id="menu-order" >
+<span class="menu-icon order-icon"></span>
+<a href="{:U('User/order')}" class="menu-title order"><span>我的订单</span></a>
+</div>
+</div>
+<div class="menu-item">
+<div id="menu-address">
+<span class="menu-icon address-icon"></span>
+<a href="{:U('User/address')}" class="menu-title address"><span>送餐地址</span></a>
+</div>
+</div>
+<div class="menu-item">
+<div id="menu-favorite" class="selected">
+<span class="menu-icon favorite-icon"></span>
+<a href="{:U('User/collect')}" class="menu-title favorite"><span>收藏夹</span></a>
+</div>
+</div>
+
+<div class="menu-item">
+<div id="menu-left">
+<span class="menu-icon left-icon"></span>
+<a href="{:U('User/count')}" class="menu-title left"><span>我的余额</span></a>
+</div>
+</div>
+<div class="menu-item">
+<div id="menu-account">
+<span class="menu-icon account-icon"></span>
+<a href="{:U('User/setting')}" class="menu-title account"><span>账户设置</span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="usercenter-detail" id="user-order">
+	<volist name="collect" id="vo">
+		
+		<div class="collectfunction" style="width:180px;height:280px;margin:0 9px;background-color:#fafafa;float:left;">
+			
+			<img style="width:180px;height:110px;"src="{$vo.log_url}">
+			<h1 style="margin:0 10px;">{$vo.sname}</h1>
+			<center >
+				<h1>
+						   <eq name="vo.star" value="1">&hearts;&deg;&deg;&deg;&deg;</eq>
+						   <eq name="vo.star" value="2">&hearts;&hearts;&deg;&deg;&deg;</eq>
+						   <eq name="vo.star" value="3">&hearts;&hearts;&hearts;&deg;&deg;</eq>
+						   <eq name="vo.star" value="4">&hearts;&hearts;&hearts;&hearts;&deg;</eq>
+						   <eq name="vo.star" value="5">&hearts;&hearts;&hearts;&hearts;&hearts;</eq>
+						</h1>
+			</center>
+						
+			<h3 style="margin:12px">电话:{$vo.telephone}</h3>
+			<center>
+				起送金额<span style="color:#666;font-size:24px">{$vo.least}</span>元<br>配送费<span style="color:#666;font-size:24px">{$vo.distribute}</span>元
+			</center>
+			<div class="canclecollect"style="position:relative;bottom:250px;left:110px;background:#f6c;width:60px;padding:6px;display:none;">
+				<a class='deletecollect' style="color:white">取消收藏</a>
+				<div style="display:none">{$vo.collect_id}</div> 
+			</div>
+		</div>
+	</volist>
+	
+</section>
+
+
+<div class="clearfix" style="_height:0px;_overflow:hidden;"></div>
+</div>
+<div class="knightCover hide" data-node="knightCover"></div>
+<div class="knightDisplay hide" data-node="knightDisplay" style="left: 161.5px; top: -109px;">
+<div class="knightTitle">
+<p>查看骑士位置</p>
+<span data-node="knightClose">×</span>
+</div>
+<div class="knightLocationBig">
+<a class="knightRefresh" data-node="knightRefresh" orderid="">刷新</a>
+<div class="knightBigMap" id="knightBigMap"></div>
+</div>
+</div>
+<!--[if IE]>
+<style type="text/css">
+	#my_addr .my_addr_edit .addr_edit_item input {
+		line-height: 30px;
+	}
+</style>
+<![endif]-->
+<input type="hidden" id="bdstoken" name="bdstoken" value="2ecfaeee3e0b8290d57434e1189554c4">
+<input type="hidden" id="bindstoken" name="bindstoken" value="6a38KT72IEzpFpikE+wlUatGbWqgK75oF69s0QWk19NeGikVUCb3orNV1JaeepecvPk8qEC/9JopELQXtRJyovJFvxEbTXkkrVdX9sUGS+tZ5C7jkHSjB481j4WUKtUpT5cjF65iyGtKRaDfjv0yr72xMPUZfoRzE9tkE3wx9lbBlhpgzOJ84O3tFv7AEqAP0O1cfz5txNoEbCzg3jAPnckGDKeSWHNOQ7mNCUZxQm9mvTp5Mc81UAF5yZOlMVIx">
+</div>
+
+<div class="mask"></div>
+
+
+<script>
+   ( $('.collectfunction')).mouseover(function(){
+    	$(this).children().eq(5)[0].style.display='block';
+    })
+    $('.collectfunction').mouseout(function(){
+    	$(this).children().eq(5)[0].style.display='none';
+    })
+    $('.deletecollect').click(function(){
+    	sid=$(this).next().text();
+    	data = {
+    		sid:sid
+    	}
+    	$.ajax({url:"{:U('User/delete_collect')}",type:'POST',data:data,success:function(succ){
+	            		
+	                    result = JSON.parse(succ);
+	                    console.log(result);
+	                    if(result.result=='ok'){
+	                          alert('删除成功');
+	                          
+	                          $(this).remove();
+	                         
+	                    }else{alert('删除失败！');}
+	            }
+	        })
+    })
+
+</script>
+<script type="text/javascript" src="__PUBLIC__/user/main_d338062.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/lib_fcbc5e7.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/landing_cb95d02.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/menu_e669814.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/commonDialog_4f5d8bf.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/completeDialog_cad21c3.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/commentDialog_6ef1148.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/txtLinkExpand_91a8f27.js"></script>
+<script type="text/javascript" src="__PUBLIC__/user/order_d05513d.js"></script>
+
+
+</body></html>

@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title>【H&L】HeJiaxing </title>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-3.1.0.js"></script>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<script type="text/javascript" src ="__PUBLIC__/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class = "jumbotron">
+    <div style="background-color:white;"class ="container">
+    	<a href="{:U('Share/index')}"><button class="btn btn-default" style="margin:40px">返回</button></a>
+    	<div style="margin:0px 40px">
+    		<div class="page-header">
+			  <h1>{$title}<small>作者：{$author}</small></h1>
+
+			</div>
+			
+				<p style="float:right;"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>{$like}</p>
+				<p style="float:right;margin-right:20px">{$time}</p>
+				
+			<img style="width:70%"src="{$picture}">
+			<h3>{$text}</h3>
+    	</div>
+	    <div>
+	    	<h2 style="border-left:5px #ec971f solid;padding-left:10px">评论</h2>
+	    	<div style="margin:0px 40px">
+	    		<volist name="comment" id="co">
+		    		<blockquote>
+		    			<h5>第{$co.loft}楼</h5>
+					  <p>{$co.co_text}</p>
+					  <footer> {$co.nick}于{$co.co_time}</footer>
+					</blockquote>
+				</volist>
+				<volist name="checklog" id="vo"><eq name="vo.result" value="1">
+					<textarea id="content"style="width:100%;margin-top:25px" class="form-control" placeholder="你的评论（右下角可延伸输入框）" aria-describedby="sizing-addon1"></textarea>
+					</textarea>
+					<input type="hidden" name="b_id" value="{$b_id}">
+					<button style="width:100%"class="btn btn-warning" onclick="public()">发表评论</button>
+				</eq>
+		   					<eq name="vo.result" value="0">
+		   						<center>
+		   							<a href="{:U('index/index')}">登录后发表自己的看法：）</a>
+		   						</center>
+		   						
+		   					</eq>
+	   						</volist>
+				
+	    	</div>
+	    </div>
+    <div>
+<script type="text/javascript">
+	function public(){
+		text = $('#content').val();
+		b_id = $('input[name=b_id]').val();
+		if(text == ''){
+			alert('评论不能为空');
+		}else{
+			data = {
+				b_text:text,
+				b_id:b_id
+			}
+			console.log(data);
+			$.ajax({url:"{:U('Share/savecomment')}",type:'POST',data:data, success:
+			         function(succ){
+			         	result = JSON.parse(succ);
+			         	console.log(result);
+			         	if (result.result=='ok') {
+			         		alert('发表成功');
+			         		window.location.reload();
+			         	}
+			                
+			                  
+			            }
+			      })
+		}
+	}
+</script>
+    	</div>
+    </div>
+</div>
+</body>

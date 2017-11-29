@@ -1,0 +1,120 @@
+
+<div class = "jumbotron">
+    <div style="margin-top:50px"class ="container">
+
+<div class="media">
+  <div class="media-left">
+    <div style="margin:30px">
+<!-- 替换城市名  -->   <volist name="city" id="ci">
+      <eq name="ci.c_id" value="$cid"><h3>{$ci.c_name}</h3>
+        <h1>{$ci.thisyearscore}</h1>
+      </eq>
+    
+      
+      </volist>
+    </div>
+  </div>
+
+  <div style="width:600" class="media-body">
+<!-- 遍历指标组——年份 --><volist name="arr" id="arr">
+    <div>{$arr.ic_year}</div>
+        <div style="width:550"class="progress active">
+          {$arr.is_score}
+       
+                    <volist name="checklog" id="vo"><eq name="vo.result" value="1">
+                    <a href="secondinfo?cid={$cid}&fi_id=1&year={$arr.ic_year}">
+                </eq>
+                <eq name="vo.result" value="0">
+                  <a href="#" onclick="pointlog()">
+                </eq>
+                </volist>
+                    <div class="progress-bar progress progress-bar " role="progressbar" style="width: {$arr.1};background-color:#09c" data-toggle="tooltip" data-placement="top" title="城市安全:{$arr.1} ">
+                    </div></a>
+   <!-- 第二维度                 -->
+
+                   <volist name="checklog" id="vo"><eq name="vo.result" value="1">
+                    <a href="secondinfo?cid={$cid}&fi_id=2&year={$arr.ic_year}">
+                </eq>
+                <eq name="vo.result" value="0">
+                  <a href="#" onclick="pointlog()">
+                </eq>
+                </volist>
+                    <div class="progress-bar progress progress-bar " role="progressbar" style="width: {$arr.2};background-color:#09c" data-toggle="tooltip" data-placement="top" title="城市生活:{$arr.2} ">
+                    </div></a>
+
+<!-- 第三维度 -->
+
+                    <volist name="checklog" id="vo"><eq name="vo.result" value="1">
+                    <a href="secondinfo?cid={$cid}&fi_id=3&year={$arr.ic_year}">
+                </eq>
+                <eq name="vo.result" value="0">
+                  <a href="#" onclick="pointlog()">
+                </eq>
+                </volist>
+                    <div class="progress-bar progress progress-bar " role="progressbar" style="width: {$arr.3};background-color:#09c" data-toggle="tooltip" data-placement="top" title="城市环境:{$arr.3} ">
+                    </div></a>
+<!-- 第四维度 -->
+
+                    <volist name="checklog" id="vo"><eq name="vo.result" value="1">
+                    <a href="secondinfo?cid={$cid}&fi_id=4&year={$arr.ic_year}">
+                </eq>
+                <eq name="vo.result" value="0">
+                  <a href="#" onclick="pointlog()">
+                </eq>
+                </volist>
+                    <div class="progress-bar progress progress-bar " role="progressbar" style="width: {$arr.4};background-color:#09c" data-toggle="tooltip" data-placement="top" title="城市环境:{$arr.4} ">
+                    </div></a>
+
+<!-- 第五维度 -->
+                 <volist name="checklog" id="vo"><eq name="vo.result" value="1">
+                    <a href="secondinfo?cid={$cid}&fi_id=5&year={$arr.ic_year}">
+                </eq>
+                <eq name="vo.result" value="0">
+                  <a href="#" onclick="pointlog()">
+                </eq>
+                </volist>
+                    <div class="progress-bar progress progress-bar " role="progressbar" style="width: {$arr.5};background-color:#09c" data-toggle="tooltip" data-placement="top" title="城市环境:{$arr.5} ">
+                    </div></a>
+
+        </div>
+</volist>
+
+
+  </div>
+
+  选择城市
+  <select class="form-control" style="width:100px">
+<!-- 遍历所有城市  -->   <volist name="city" id="ci">
+          <option value="{$ci.c_id}"<eq name="ci.c_id" value="$cid">selected</eq>/>{$ci.c_name}</option>
+          
+    </volist>  
+  </select>
+</div>
+      
+        
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+
+</div>
+
+
+<script type="text/javascript">
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+//选择城市
+$('select').change(function(){
+    cid=$('select option:selected').val();
+    
+          window.location.href="index?cid="+cid;
+        
+    })
+
+function pointlog(){
+  alert('登录后查看维度评价指数详情。');
+}
+</script>

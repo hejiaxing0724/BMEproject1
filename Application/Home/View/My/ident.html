@@ -1,0 +1,42 @@
+<div class = "jumbotron">
+    <div style="margin-top:50px"class ="container">
+    	<div style="border-left:#09C 5px solid;font-size:25px;margin-bottom:25px;padding-left:15px">身份认证</div>
+        <eq name="daiident" value="1">
+            <h3>您的身份认证已提交，请耐心等待管理员审核：）<a href="{:U('My/myinfo')}">返回</a></h3><else/>
+            <h4>请您确保提交身份信息的真实性，稍后我们的管理员会和您取得联系进行核实：）</h4>
+            <div class="input-group">
+                        <span class="glyphicon  input-group-addon" id="sizing-addon1"aria-hidden="true">称谓</span>
+                        <input style="width:400px" name="iu_name"type="text" class="password form-control" aria-describedby="basic-addon1">
+                        <a onclick="submit()" href="#"style="margin:5px 50px;font-size:24px">提交</a>
+                    </div>
+        
+    	</eq>
+	</div>
+</div>
+
+<script type="text/javascript">
+    function submit(){
+        diu_name = $('input[name=iu_name]').val();
+         data = {
+                 diu_name:diu_name,                  
+                }
+
+                $.ajax({url:"{:U('My/ident_submit')}",type:'POST',data:data,success:
+                    function(succ){
+                            console.log(succ);
+                            result = JSON.parse(succ);
+                            
+                            if(result.result=='ok'){
+                                  alert('提交成功');
+                                  
+                                   window.location.reload(); 
+                            }
+                                
+                    }
+                })
+                     
+        
+    }
+					           
+        
+</script>
